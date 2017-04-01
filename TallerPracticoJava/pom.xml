@@ -1,6 +1,30 @@
 <project>
-  <modelVersion>1.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
   <groupId>proy.prueba</groupId>
   <artifactId>proy.prueba</artifactId>
-  <version>1</version>
+  <version>0.0.1.SNAP</version>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+ <!-- Dependencias -->
+  <dependencies>
+
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
+      </dependency>
+
+   </dependencies>
+
 </project>
